@@ -1,0 +1,127 @@
+.Podcastscard-sec
+    &.all-Podcastscard-sec
+        padding-bottom: 30px
+        .podcast-bg
+            background: transparent
+            padding: 0
+            .podcasts-buttons
+                .nav-item
+                    a
+                        background-color: #0D0D13
+                        border: 1px solid #0D0D13
+                        color: #ffffff
+            .card-text
+                background: #232323
+                .heading-4
+                    color: #fff !important
+                .paragraph-small
+                    color: #fff !important
+
+    .podcast-bg
+        background: #F3F3F3
+        padding: 40px
+        .podcasts-buttons
+            .nav-item
+                width: 100%
+                a
+                    border-radius: 0
+                    background-color: #fff
+                    border: 1px solid #fff
+                    padding: 8px 10px
+                    padding-right: 20px
+                    color: black
+                    display: flex
+                    align-items: center
+                    height: auto
+                    width: 100%
+                    &:hover
+                        background-color: #C43D3D
+                        border: 1px solid #C43D3D
+                        color: #fff
+                    img
+                        width: 30px
+                        height: 30px
+                        padding: 5px
+                        background: #ffff
+                        display: flex
+                        align-items: center
+                        justify-content: center
+                        border-radius: 50%
+                        margin-right: 10px
+
+                    &.active
+                        background-color: #C43D3D
+                        border: 1px solid #C43D3D
+                        color: #fff
+                        font-weight: 600
+        .card-img
+            height: 200px
+            width: 200px
+            min-width: 200px
+            object-fit: cover
+            min-height: 200px
+        .card-text
+            padding: 25px
+            background: #fff
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            .host-line
+                background: #C43D3D
+                width: 1px
+                margin: 0 10px
+            .time
+                p
+
+                    background: #C43D3D
+                    padding: 0 10px
+
+@media screen and (max-width: 1600px)
+    .Podcastscard-sec
+        .podcast-bg
+            padding: 35px
+            .card-img
+                height: 170px
+                width: 170px
+                min-width: 170px
+                object-fit: cover
+                min-height: 170px
+
+@media screen and (max-width: 1400px)
+    .Podcastscard-sec
+        .podcast-bg
+            padding: 30px
+            .card-text
+                padding: 20px
+            .card-img
+                height: 150px
+                width: 150px
+                min-width: 150px
+                object-fit: cover
+                min-height: 150px
+@media screen and (max-width: 992px)
+    .Podcastscard-sec
+        .podcast-bg
+            padding: 20px
+            .podcasts-buttons
+                .nav-item
+                    display: flex
+                    width: max-content
+                    a
+                        padding: 3px 10px
+                        padding-right: 10px
+                        img
+                            width: 20px
+                            height: 20px
+                            padding: 2px
+@media screen and (max-width: 767px)
+    .Podcastscard-sec
+        .podcast-bg
+            padding: 15px
+            .card-img
+                width: 100%
+                min-width: 100%
+                object-fit: cover
+                min-height: 150px
+            .card-text
+                padding: 15px

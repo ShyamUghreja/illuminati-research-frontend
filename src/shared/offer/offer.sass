@@ -1,0 +1,52 @@
+.offer-sec
+    .subscribe-card
+        padding: 50px 30px
+        margin: auto
+        background: #FFFFFF12
+        border: 1px solid #FFFFFF3D
+        img
+            height: 60px
+            width: 60px
+            object-fit: contain
+        p
+            display: -webkit-box
+            -webkit-line-clamp: 3
+            -webkit-box-orient: vertical
+            overflow: hidden
+            text-overflow: ellipsis
+            height: 90px
+            font-family: "MullerW00-Regular"
+            color: rgba(255, 255, 255, 0.8)
+
+@media screen and (max-width: 1600px)
+    .offer-sec
+        .subscribe-card
+            padding: 30px
+@media screen and (max-width: 1400px)
+    .offer-sec
+        .subscribe-card
+            padding: 25px
+            img
+                height: 50px
+                width: 50px
+
+@media screen and (max-width: 992px)
+    .offer-sec
+        .subscribe-card
+            margin-bottom: 20px
+
+@media screen and (max-width: 767px)
+    .offer-sec
+        p
+            br
+                display: none
+        .subscribe-card
+            margin-bottom: 20px
+            padding: 20px
+            img
+                height: 40px
+                width: 40px
+                margin-bottom: 15px
+            p
+                padding: 0 !important
+                height: auto

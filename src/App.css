@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "MullerW00-Regular";
+  src: local("MullerW00-Regular"),
+    url("./assets/fonts/Muller\ W00\ Regular.ttf") format("truetype");
+  font-weight: normal
+}
+.container {
+  max-width: 1320px !important;
+}

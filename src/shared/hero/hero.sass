@@ -1,0 +1,211 @@
+.home-hero-sec
+    overflow: hidden
+    padding: 100px 0
+    .hero-text
+        .heading-1
+            span
+                font-weight: 800
+        .subscribe
+            .form-control
+                padding: 18px 22px
+                font-weight: 400
+                font-size: 16px
+                line-height: 112%
+                color: #fff
+                background: #FFFFFF12
+                border: 1px solid #FFFFFF3D
+                border-radius: 0
+            .news-sign-button
+                position: absolute
+                right: 8px
+                top: 50%
+                transform: translateY(-50%)
+                background: #C43D3D
+                border-radius: 0
+                font-weight: 600
+                font-size: 16px
+                line-height: 100%
+                border: none
+                padding: 14px 25px
+    .square-red-1
+        position: absolute
+        right: 70px
+        animation: animName 2s linear infinite
+    @keyframes animName
+        0%
+            transform: rotate(0deg)
+
+        100%
+            transform: rotate(360deg)
+
+    .square-red-2
+        position: absolute
+        right: 180px
+        top: 80px
+        border-radius: 50%
+        height: 10px
+        width: 10px
+        animation: movescale7 3s linear infinite
+        -webkit-animation: movescale7 3s linear infinite
+    @keyframes movescale7
+        0%
+            -webkit-transform: scale(.5)
+            transform: scale(.5)
+
+        50%
+            -webkit-transform: scale(2)
+            transform: scale(2)
+
+        100%
+            -webkit-transform: scale(.5)
+            transform: scale(.5)
+    .square-red-3
+        position: absolute
+        right: 43%
+        top: 145px
+        border-radius: 50%
+        height: 10px
+        width: 10px
+        animation: motion-blur 5s ease-in-out infinite
+        -webkit-animation: motion-blur 5s ease-in-out infinite
+    @keyframes motion-blur
+        0%
+            right: 43%
+        50%
+            right: 47%
+            transform: skewX(0deg)
+        100%
+            right: 43%
+            transform: skewX(0deg)
+    .square-red-4
+        position: absolute
+        right: 48%
+        top: 42%
+        border-radius: 50%
+        height: 10px
+        width: 10px
+        animation: motion-blur2 5s ease-in-out infinite
+        -webkit-animation: motion-blur2 5s ease-in-out infinite
+    @keyframes motion-blur2
+        0%
+            right: 48%
+        50%
+            right: 53%
+            transform: skewX(0deg)
+        100%
+            right: 48%
+            transform: skewX(0deg)
+    .square-red-5
+        position: absolute
+        right: 54%
+        top: 32%
+        border-radius: 50%
+        height: 5px
+        width: 5px
+        animation: motion-blur3 5s ease-in-out infinite
+        -webkit-animation: motion-blur3 5s ease-in-out infinite
+    @keyframes motion-blur3
+        0%
+            top: 32%
+        50%
+            top: 37%
+            transform: skewX(0deg)
+        100%
+            top: 32%
+            transform: skewX(0deg)
+    .square-red-6
+        position: absolute
+        right: 58%
+        top: 15%
+        height: 10px
+        width: 10px
+        animation: motion-blur4 5s ease-in-out infinite
+        -webkit-animation: motion-blur4 5s ease-in-out infinite
+    @keyframes motion-blur4
+        0%
+            top: 15%
+            transform: rotate(0deg) skewX(0deg)
+        50%
+            top: 25%
+            transform: rotate(180deg) skewX(0deg)
+
+        100%
+            top: 15%
+            transform: rotate(0deg) skewX(0deg)
+    .square-red-7
+        position: absolute
+        right: 55%
+        top: 50%
+        height: 10px
+        width: 10px
+        animation: motion-blur5 5s ease-in-out infinite
+        -webkit-animation: motion-blur5 5s ease-in-out infinite
+    @keyframes motion-blur5
+        0%
+            right: 55%
+            transform: rotate(0deg) skewX(0deg)
+        50%
+            right: 60%
+            transform: rotate(-270deg) skewX(0deg)
+        100%
+            right: 55%
+            transform: rotate(0deg) skewX(0deg)
+.home-ifreme
+    iframe
+        width: 80%
+.hero-section-image
+    position: absolute
+    top: -50px
+    right: 0
+@media screen and (max-width: 1600px)
+    .home-hero-sec
+        padding: 70px 0
+        .hero-text
+            .heading-1
+                margin-right: 60px
+@media screen and (max-width: 1400px)
+    .home-hero-sec
+        padding: 50px 0
+        .square-red-2
+            right: 140px
+        .square-red-1
+            right: 10px
+    .hero-section-image
+        top: -15px
+@media screen and (max-width: 992px)
+    .home-hero-sec
+        padding: 40px 0
+        .hero-text
+            .heading-1
+                margin-right: 0px
+            .subscribe .form-control
+                padding: 12px 17px
+                font-weight: 400
+                font-size: 14px
+
+@media screen and (max-width: 767px)
+    .home-ifreme
+        iframe
+            width: 100%
+    .home-hero-sec
+        padding: 20px 0 30px 0
+        .row
+            flex-direction: column-reverse
+            .hero-section-image
+                height: 250px
+                overflow: hidden
+                position: unset
+        .square-red-1
+            bottom: 0
+        .square-red-2
+            right: 12px
+        .square-red-3
+            display: none
+        .square-red-4
+            display: none
+        .square-red-5
+            display: none
+        .square-red-6
+            display: none
+        .square-red-7
+            display: none

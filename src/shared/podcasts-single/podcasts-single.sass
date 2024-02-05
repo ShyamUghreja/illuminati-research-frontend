@@ -1,0 +1,248 @@
+.podcasts-details-page
+    max-width: 750px
+    margin: auto
+    .player-section
+        .top-img
+            img
+                height: 250px
+                width: 100%
+                object-fit: cover
+        .player-name
+            display: flex
+            justify-content: space-between
+            .medium
+                font-weight: 500
+            .color-secondary
+                color: #516AF5
+        .rhap_total-time
+            position: relative
+            top: auto
+            left: auto
+            background: transparent
+            padding: 0
+            font-size: 16px
+            border-radius: 0
+            color: #000000
+        .audio-player
+            padding: 10px !important
+            background: #FFF5F1 !important
+            height: 110px
+            .rhap_container
+                position: relative
+                height: 100%
+                padding: 0 0 20px 0 !important
+                .rhap_progress-section
+                    flex-direction: row
+                    position: absolute
+                    width: 100%
+                    bottom: 0
+                    left: 0
+                .rhap_horizontal-reverse
+                    width: 100%
+                .rhap_controls-section
+                    width: 100%
+                .rhap_main-controls
+                    flex: auto
+                    width: 100%
+                    justify-content: space-between
+                .rhap_forward-button
+                    border: none !important
+                    background: transparent !important
+                    position: relative
+                    width: 50px !important
+                    &:after
+                        content: "\EA5A 10s"
+                        font-family: remixicon!important
+                        position: absolute
+                        left: 50%
+                        top: 50%
+                        transform: translate(-50%, -50%)
+                        font-size: 18px
+                        line-height: normal
+                        color: #C6BFBF
+                        width: 100%
+                    svg
+                        display: none
+                .rhap_rewind-button
+                    border: none !important
+                    background: transparent !important
+                    position: relative
+                    width: 50px !important
+                    &:after
+                        content: "\EA58 10s"
+                        font-family: remixicon!important
+                        position: absolute
+                        left: 50%
+                        top: 50%
+                        transform: translate(-50%, -50%)
+                        font-size: 18px
+                        line-height: normal
+                        color: #C6BFBF
+                        width: 100%
+                    svg
+                        display: none
+
+@media screen and (max-width: 992px)
+    .podcasts-details-page
+        padding: 30px 0
+        .player-section
+            .top-img
+                img
+                    height: 250px
+
+@media screen and (max-width: 767px)
+    .podcasts-details-page
+        padding: 0
+        .player-section
+            .top-img
+                img
+                    height: 200px
+        .player-section
+            .audio-player
+                padding: 10px !important
+                .rhap_container
+                    .rhap_forward-button
+                        &:after
+                            font-size: 14px
+                    .rhap_rewind-button
+                        &:after
+                            font-size: 14px
+@media screen and (max-width: 375px)
+    .podcasts-details-page
+        .player-section
+            .top-img
+                img
+                    height: 150px
+        .player-section
+            .audio-player
+.listening-card
+    display: flex
+    padding: 36px
+    background: #FFFFFF
+    border-radius: 20px
+    margin-bottom: 30px
+    .card-image
+        width: 40%
+        margin-right: 40px
+        img
+            width: 100%
+            height: 280px
+            object-fit: cover
+            border-radius: 16px
+    .card-content
+        position: relative
+        width: 60%
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+
+.rhap_time.rhap_total-time
+    position: absolute
+    top: 35%
+    left: 0px
+    background: #516AF5
+    padding: 7px 20px
+    font-size: 20px
+    font-weight: 700
+    border-radius: 8px
+    color: #ffffff
+.rhap_volume-controls
+    display: none !important
+.rhap_additional-controls
+    display: none !important
+.rhap_progress-section
+    flex-direction: row-reverse
+.rhap_controls-section
+    flex: initial !important
+.rhap_container
+    box-shadow: none !important
+    background: transparent !important
+    padding: 15px 0 0 0 !important
+.rhap_main-controls-button
+    color: white !important
+
+.rhap_button-clear
+    background: #FF6737 !important
+    border-radius: 50% !important
+    height: 35px !important
+    width: 35px !important
+    border: 1px solid black !important
+    display: flex
+    align-items: center
+    justify-content: center
+.rhap_play-pause-button
+    font-size: 35px !important
+.rhap_time
+    font-weight: 700
+.rhap_progress-bar
+    height: 2px !important
+.rhap_progress-indicator
+    height: 18px !important
+    width: 18px !important
+    background: #000000 !important
+    border: 3px solid #FFC2AE !important
+
+@media screen and (max-width: 1400px)
+    .listening-card
+        .card-image
+            img
+                height: 240px
+
+@media screen and (max-width: 1200px)
+    .listening-card
+        .card-image
+            img
+                height: 200px
+
+@media screen and (max-width: 992px)
+    .rhap_time.rhap_total-time
+        padding: 5px 12px !important
+        font-size: 16px !important
+    .listening-card
+        padding: 20px
+        .card-image
+            img
+                height: 160px
+    .rhap_button-clear
+        height: 40px !important
+        width: 40px !important
+    .rhap_play-pause-button
+        font-size: 40px
+
+@media screen and (max-width: 767px)
+    .rhap_controls-section
+        justify-content: center !important
+        margin-bottom: 5px !important
+        margin-right: 0px !important
+    .rhap_container
+        padding: 0 !important
+    .rhap_button-clear
+        height: 35px !important
+        width: 35px !important
+    .rhap_play-pause-button
+        font-size: 30px !important
+    .rhap_time.rhap_total-time
+        padding: 2px 8px !important
+        font-size: 12px !important
+        border-radius: 5px
+        left: 0px
+        top: 44px
+    .rhap_time
+        font-size: 12px !important
+    .rhap_button-clear
+        height: 30px !important
+        width: 30px !important
+    .listening-card
+        padding: 10px
+        .card-image
+            margin-right: 15px
+            img
+                height: 100%
+        .card-content
+            .heading-4
+                display: -webkit-box
+                -webkit-line-clamp: 2
+                -webkit-box-orient: vertical
+                overflow: hidden
+                text-overflow: ellipsis
+                margin-bottom: 30px !important

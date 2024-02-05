@@ -1,0 +1,157 @@
+.footer-sec
+    .footer-news
+        position: relative
+        .footer-card-1
+            background: #C43D3D
+            padding: 30px
+            text-align: start
+            .text-bg
+                display: -webkit-box
+                -webkit-box-orient: vertical
+                border-top: 1px solid #FFFFFF80
+                padding: 30px
+                text-overflow: ellipsis
+                background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 0, 0) 100%)
+                ul
+                    list-style: disc
+            .footer-btn
+                background: #fff
+                border: 1px solid #fff
+                border-radius: 0
+                padding: 10px 20px
+                font-size: 18px
+                font-weight: 500
+                color: #000
+                &:hover
+                    background: transparent
+                    color: #fff
+                    border: 1px solid #fff
+                    transition: 0.4s ease
+    .square-red-1
+        position: absolute
+        right: 10%
+        top: 35%
+        height: 15px
+        width: 15px
+        animation: animName 2s linear infinite
+    .square-red-2
+        position: absolute
+        right: 60%
+        top: 5%
+        height: 8px
+        width: 8px
+        animation: movescale7 3s linear infinite
+        -webkit-animation: movescale7 3s linear infinite
+    .square-red-3
+        position: absolute
+        right: 55%
+        top: 30%
+        border-radius: 50%
+        height: 5px
+        width: 5px
+        animation: motion-blure 5s ease-in-out infinite
+        -webkit-animation: motion-blure 5s ease-in-out infinite
+    @keyframes motion-blure
+        0%
+            right: 55%
+        50%
+            right: 60%
+            transform: skewX(0deg)
+        100%
+            right: 55%
+            transform: skewX(0deg)
+    .square-red-4
+        position: absolute
+        right: 65%
+        top: 40%
+        border-radius: 50%
+        height: 7px
+        width: 7px
+        animation: motion-blur2 5s ease-in-out infinite
+        -webkit-animation: motion-blur2 5s ease-in-out infinite
+    @keyframes motion-blur2
+        0%
+            right: 65%
+        50%
+            right: 70%
+            transform: skewX(0deg)
+        100%
+            right: 65%
+            transform: skewX(0deg)
+    .square-red-5
+        position: absolute
+        right: 78%
+        top: 50%
+        border-radius: 50%
+        height: 5px
+        width: 5px
+        animation: motion-blur3 5s ease-in-out infinite
+        -webkit-animation: motion-blur3 5s ease-in-out infinite
+    .square-red-6
+        position: absolute
+        left: 10%
+        top: 5%
+        border-radius: 50%
+        height: 8px
+        width: 8px
+        animation: motion-blur4 5s ease-in-out infinite
+        -webkit-animation: motion-blur4 5s ease-in-out infinite
+    .square-red-7
+        position: absolute
+        left: 26%
+        top: 73%
+        height: 10px
+        rotate: 60deg
+        width: 10px
+        animation: motion-blur5 5s ease-in-out infinite
+        -webkit-animation: motion-blur5 5s ease-in-out infinite
+.content-position-img
+    position: absolute
+    bottom: 0
+    left: 10%
+
+@media screen and (max-width: 992px)
+    .content-position-img
+        position: unset
+@media screen and (max-width: 991px)
+    .promotion-sec
+        .promotion-news
+            .Promotion-img
+                display: none
+            .promotion-btn
+                padding: 10px 15px !important
+                font-size: 14px !important
+@media screen and (max-width: 768px)
+    .promotion-sec
+        .promotion-news
+            padding: 30px
+            .footer-card-1
+                padding: 15px
+    .footer-sec
+        .footer-news
+            .footer-card-1
+                padding: 20px
+                .text-bg
+                    padding: 15px
+@media screen and (max-width: 480px)
+    .footer-sec
+        .square-red-1
+            display: none
+        .square-red-2
+            display: none
+        .square-red-3
+            display: none
+        .square-red-4
+            display: none
+        .square-red-5
+            display: none
+        .square-red-6
+            display: none
+        .square-red-7
+            display: none
+    .footer-sec 
+        .footer-news 
+            .footer-card-1 
+                .footer-btn
+                    padding: 8px 10px
+                    font-size: 14px

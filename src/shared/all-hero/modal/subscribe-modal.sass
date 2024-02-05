@@ -1,0 +1,53 @@
+.subscribe-modal
+    .modal-content
+        max-width: 620px
+        height: 100%
+        padding: 40px
+        margin: auto
+        background: #121212
+        .modal-header
+            border: none
+            padding: 0
+            .btn-close
+                filter: invert(1)
+
+        .modal-body
+            .modelImg
+                width: 130px
+            p
+                color: #FFFFFFCC
+            .subscribe
+                .form-control
+                    padding: 18px 22px
+                    font-weight: 400
+                    font-size: 16px
+                    line-height: 112%
+                    color: #fff
+                    background: #FFFFFF12
+                    border: 1px solid #FFFFFF3D
+                    border-radius: 0
+                .news-sign-button
+                    position: absolute
+                    right: 8px
+                    top: 50%
+                    transform: translateY(-50%)
+
+@media screen and (max-width: 490px)
+    .subscribe-modal
+        .modal-content
+            padding: 20px
+            .modal-body
+                .subscribe
+                    .form-control
+                        padding: 10px 15px
+                        font-size: 12px
+                    .news-sign-button
+                        font-size: 12px
+                        padding: 10px 15px
+                .modelImg
+                    width: 90px
+            .modal-header
+                .btn-close
+                    width: 0.5em
+                    height: 0.5em
+                    padding: 4px !important

@@ -1,0 +1,61 @@
+.about-us-sec
+    h3
+        color: #060606
+    .subscribe-card
+        padding: 50px 30px
+        margin: auto
+        background: #FAFAFA
+        border: 1px solid #0606061A
+        img
+            height: 60px
+            width: 60px
+            object-fit: cover
+        p
+            display: -webkit-box
+            -webkit-line-clamp: 3
+            -webkit-box-orient: vertical
+            overflow: hidden
+            text-overflow: ellipsis
+            height: 90px
+.about-sec
+    .service-news
+        background: #060606
+        padding: 85px 75px
+        .footer-card-1
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 0, 0) 100%)
+            border-top: 1px solid #FFFFFF80
+            padding: 30px
+            text-align: start
+            p
+                display: -webkit-box
+                -webkit-line-clamp: 4
+                -webkit-box-orient: vertical
+                overflow: hidden
+                text-overflow: ellipsis
+            .service-btn
+                background: #fff
+                border: 1px solid #060606
+                border-radius: 0
+                padding: 15px 25px
+                font-size: 18px
+                color: #000
+                &:hover
+                    background: transparent
+                    color: #fff
+                    border: 1px solid #fff
+
+@media screen and (max-width: 992px)
+    .about-us-sec
+        p
+            br
+                display: none
+        .subscribe-card
+            padding: 25px 15px
+    .about-sec
+        .service-news
+            padding: 30px
+            .footer-card-1
+                padding: 20px
+                .service-btn
+                    font-size: 14px
+                    padding: 10px 15px

@@ -1,1 +1,1 @@
-# illuminati-research-frontend
+# the-crypto-illuminati-frontend-client

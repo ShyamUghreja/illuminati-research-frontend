@@ -1,0 +1,47 @@
+.promotion-sec
+    .promotion-news
+        background: #060606
+        padding: 85px 75px
+        position: relative
+        .Promotion-img
+            position: absolute
+            bottom: 0
+            // left: 18%
+        .footer-card-1
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 0, 0) 100%)
+            border-top: 1px solid #FFFFFF80
+            padding: 30px
+            text-align: start
+            p
+                display: -webkit-box
+                -webkit-line-clamp: 4
+                -webkit-box-orient: vertical
+                overflow: hidden
+                text-overflow: ellipsis
+            .promotion-btn
+                background: #fff
+                border: 1px solid #060606
+                border-radius: 0
+                padding: 15px 25px
+                font-size: 18px
+                font-weight: 500
+                color: #000
+                &:hover
+                    background: transparent
+                    color: #fff
+                    border: 1px solid #fff
+
+@media screen and (max-width: 991px)
+    .promotion-sec
+        .promotion-news
+            .Promotion-img
+                display: none
+            .promotion-btn
+                padding: 10px 15px !important
+                font-size: 14px !important
+@media screen and (max-width: 768px)
+    .promotion-sec
+        .promotion-news
+            padding: 30px
+            .footer-card-1
+                padding: 15px

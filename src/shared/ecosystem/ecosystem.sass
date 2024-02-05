@@ -1,0 +1,49 @@
+.ecosystem-sec
+    .Resources-all-card
+        display: flex
+        align-items: center
+        justify-content: center
+        flex-wrap: wrap
+        .crypto-card
+            background: #FAFAFA
+            border: 1px solid #0606061A
+            height: auto
+            margin-bottom: 24px
+            overflow: hidden
+            padding: 20px
+            position: relative
+            text-align: center
+            width: 18%
+            margin: 0 10px 20px 10px
+
+            .card-content
+                white-space: pre
+                margin: 0 auto
+                h5
+                    -webkit-line-clamp: 2
+            .card-image
+                width: 100%
+                height: auto
+                img
+                    width: 100px
+                    height: 100px
+                    border-radius: 50%
+@media screen and (max-width: 1200px)
+    .ecosystem-sec
+        .Resources-all-card
+            .crypto-card
+                width: 20%
+                .card-image
+                    img
+                        width: 60px
+                        height: 60px
+@media screen and (max-width: 992px)
+    .ecosystem-sec
+        .Resources-all-card
+            .crypto-card
+                width: 25%
+@media screen and (max-width: 490px)
+    .ecosystem-sec
+        .Resources-all-card
+            .crypto-card
+                width: 40%

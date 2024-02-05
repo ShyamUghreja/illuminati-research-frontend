@@ -1,0 +1,65 @@
+.latest-project-sec
+    .latest-project-bg
+        background: #FFFFFF
+        padding: 55px 65px 30px 65px
+    .latest-card-bg
+        background: #F4F4F4
+        border: 1px solid rgba(0, 0, 0, 0.05)
+    .latest-bg
+        background: #060606
+    .latest-card
+        position: relative
+        padding: 20px
+        border-bottom: 1px solid rgba(13, 13, 19, 0.1)
+        transition: all 0.3s ease-in-out
+        min-height: 167px
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        &:last-child
+            margin-bottom: 0px !important
+        &:hover
+            background: #FFE3DA
+    h6
+        margin: 10px 0 13px 0 !important
+        display: -webkit-box
+        -webkit-line-clamp: 2
+        -webkit-box-orient: vertical
+        overflow: hidden
+        text-overflow: ellipsis
+    .by-date
+        // position: absolute
+        // bottom: 20px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        // width: 86%
+        p
+            color: #FFFFFF80
+            span
+                
+                color: #fff
+
+@media screen and (max-width: 1400px)
+    .latest-project-sec
+        .latest-project-bg
+            padding: 50px 50px 30px 50px
+
+@media screen and (max-width: 1200px)
+    .latest-project-sec
+        .latest-project-bg
+            padding: 40px 40px 15px 40px
+        .latest-card
+            min-height: 160px
+
+@media screen and (max-width: 992px)
+    .latest-project-sec
+        .latest-project-bg
+            padding: 35px 35px 15px 35px
+
+@media screen and (max-width: 767px)
+    .latest-project-sec
+        .latest-project-bg
+            padding: 15px
+            .latest-card
+                min-height: auto
